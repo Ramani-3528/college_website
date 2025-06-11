@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid blue; */
+}
+
+html{
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    text-wrap: balance;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 530;
+    color: #000000CC;
+    text-align: center;
+}
+
+.componentSpacing{
+    padding: 3rem 0rem;
+}
+
+.screensize{
+    max-width: 1200px;
+    margin: auto;
+}
+.screensize2{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    /* margin: 2rem; */
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+button{
+    background-color: #DC572C;
+    color: #FFFFFF;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.navBody{
+    background-color: rgb(4, 4, 62);
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    padding: 0rem;
+}
+
+.contactBox i{
+    font-size: 13px;
+}
+
+.contactBox p{
+    font-family: "Roboto",sans-serif;
+    padding: 0rem 1rem 0rem 0.5rem;
+    font-size: 13px;
+}
+
+.admissionBox i{
+    font-size: 12px;
+    margin: 0.8rem;
+}
+
+.admissionBox p{
+    background-color: #DC572C;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.homeBlock{
+    background-image: url(./screenshot/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: auto;
+}
+
+.contactBox h4{
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    padding: 0rem 1rem 0rem 0.5rem;
+    font-size: 13px;
+}
+
+.link{
+    margin-left: 8rem;
+}
+
+.homeImage{
+    padding: 1rem 0rem;
+}
+
+.homeBox img{
+    height: 70px;
+    width: 275px;
+}
+
+.homeBox ul li{
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.courses{
+    background-image: linear-gradient(192deg, #FFFFFFE3 38%, #FFFFFFCF 70%),url(./assets/images/courses_bg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 8.5rem 3rem 3rem 3rem;
+}
+
+.line{
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #DC572C; 
+    max-width: 100px;
+    margin: auto;  
+    /* display: inline-block; */
+}
+
+.ugcoursesBox figure img{
+    background-color: #ffffff;
+    padding-bottom: 4.5rem;
+    border: 1px solid rgba(8, 8, 8, 0.4);
+    border-radius: 2rem 2rem;
+}
+
+.ugcoursesBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.ugcoursesBox button{
+    font-size: 19px;
+    font-weight: 510;
+    border-radius: 2rem 2rem;
+    padding: 1.5rem 16rem 1rem 16rem;
+    position: relative;
+    bottom: 5.8rem;
+}
+
+.programsBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 2rem;
+}
+
+.programsBox button{
+    font-size: 19px;
+    font-weight: 510;
+    border-radius: 2rem 2rem;
+    padding: 1.5rem 10.6rem 1rem 10.6rem; 
+    position: relative;
+    bottom: 5.8rem; 
+}
+
+.programsBox figure img{
+    background-color: #fbfbf5;
+    padding-bottom: 4.5rem;
+    border: 1px solid rgba(8, 8, 8, 0.4);
+    border-radius: 3rem;
+}
+
+.offersBody img{
+    height: 340px;
+    width: 440px;
+    border-radius: 3rem;
+}
+
+.acas{
+    background-image: linear-gradient(180deg, #f5f7fa 0%, #FFF5F2 100%),url(./assets/images/acas_bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acasBody{
+    padding: 0rem 4rem 0rem 5rem;
+}
+
+.acasBox img{
+    height: 340px;
+    width: 460px;
+}
+
+.acasBox p{
+    font-size: 11px;
+    color: #0000008A; 
+}
+
+.chairmanBox h2{
+    text-align: start;
+}
+
+.chairmanBox h5{
+    font-size: 13px;
+    font-weight: 600;
+    word-spacing: 1px;
+    color: #DC572C;
+    padding: 0rem 0rem 2rem;
+}
+
+.chairmanBox h3{
+    font-size: 15px;
+    color: #0000008A;
+}
+
+.chairmanBox h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0000008A;
+    padding-bottom: 2rem;
+}
+
+.chairmanBox p{
+    font-size: 13px;
+    color: #0000008A;
+    padding-bottom: 2.5rem;
+}
+
+.chairmanBox button{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem 2rem;
+}
+
